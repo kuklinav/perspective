@@ -70,7 +70,7 @@
         "write_tests": "WRITE_TESTS=1 npm run test:run",
         "postinstall": "npm-run-all bootstrap:*",
         "bootstrap:lerna": "lerna bootstrap --hoist",
-        "bootstrap:apache-arrow": "cp -r ./node_modules/@apache-arrow/es5-esm packages/perspective/src/js/apache-arrow",
+        "bootstrap:apache-arrow": "cp -r ./node_modules/@apache-arrow/es5-esm/ packages/perspective/src/js/apache-arrow",
         "precommit": "npm run lint",
         "lint": "npm-run-all --silent lint:*",
         "lint:eslint": "eslint packages/*/src/**/*.js packages/*/test/**/*.js examples/*/*.js",
