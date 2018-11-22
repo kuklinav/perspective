@@ -1,6 +1,6 @@
 # Liberally copied from trzeci/emscripten
 
-FROM trzeci/emscripten-slim:sdk-tag-1.38.11-64bit
+FROM trzeci/emscripten-slim:sdk-tag-1.38.20-64bit
 
 RUN apt-get -qq -y update 
 RUN apt-get -qq install -y --no-install-recommends \
